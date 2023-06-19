@@ -28,7 +28,7 @@ export default {
         {
             Title: () => <>Party</>,
             Date: () => <>Friday, July 14th, 2023</>,
-            Time: () => <>17:00 PM to 23:00 PM (+1)</>,
+            Time: () => <>17:00 PM</>,
             Location: () => <>Zada, Aleea Mihail Sadoveanu, Iași</>,
             locationLink: "https://www.facebook.com/p/Zada-100051989815586/",
             Address: () => (
@@ -73,7 +73,7 @@ export default {
         {
             Title: () => <>Petrecere</>,
             Date: () => <>Vineri, 14 Iulie, 2023</>,
-            Time: () => <>de la 17:00 PM până la 23:00 PM (+1)</>,
+            Time: () => <>de la 17:00 PM</>,
             Location: () => <>Zada, Aleea Mihail Sadoveanu, Iași</>,
             locationLink: "https://www.facebook.com/p/Zada-100051989815586/",
             Address: () => (

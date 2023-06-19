@@ -2,17 +2,21 @@ import React from "react"
 
 import { LANGUAGE } from "../../utils/constants"
 
+const fontFamily = 'cursive';
+const fontSize = '2.5em';
+const color = '#eb7388';
+
 export default {
     [LANGUAGE.EN]: {
-        Title: () => <span>Victoria Elena's Baptism</span>,
-        Date: () => <span>14/09/2023</span>,
-        Location: () => <span>Zada, Aleea Mihail Sadoveanu, Iași</span>,
+        Title: () => <span style={{ fontFamily, fontSize, color }}>Victoria Elena</span>,
+        Date: () => <span style={{ fontFamily }}>14/07/2023</span>,
+        Location: () => <span style={{ fontFamily }}>Zada, Aleea Mihail Sadoveanu, Iași</span>,
         locationLink: "https://goo.gl/maps/RtGymfxYR1nYpw7s8"
     },
     [LANGUAGE.RO]: {
-        Title: () => <span>Botezul Victoriei Elena</span>,
-        Date: () => <span>14/09/2023</span>,
-        Location: () => <span>Zada, Aleea Mihail Sadoveanu, Iași</span>,
+        Title: () => <span style={{ fontFamily, fontSize, color }}>Victoria Elena</span>,
+        Date: () => <span style={{ fontFamily }}>14/07/2023</span>,
+        Location: () => <span style={{ fontFamily }}>Zada, Aleea Mihail Sadoveanu, Iași</span>,
         locationLink: "https://goo.gl/maps/RtGymfxYR1nYpw7s8"
     }
 }
